@@ -1,0 +1,19 @@
+# SPRINT 12: EMBUDOS DE VENTA Y TEST A/A/B
+
+### 🛡️ Escenario (Situation)
+La startup de productos alimenticios necesitaba evaluar si el cambio de diseño en la aplicación (nuevas fuentes/interfaz) afectaba la conversión de ventas. Antes de decidir, se requería una auditoría de la integridad del experimento.
+
+### 🎯 Objetivo (Task)
+Analizar el embudo de ventas para detectar fugas de usuarios y validar los resultados de un Test A/A/B para tomar una decisión basada en datos.
+
+### 🔧 Implementación Técnica (Action)
+* **Sales Funnel:** Visualización del recorrido del usuario (Main Screen -> Cart -> Payment).
+* **Test A/A:** Validación de la estabilidad de los grupos de control antes del experimento.
+* **Test A/B:** Uso de la prueba Z (Z-test) para proporciones poblacionales.
+
+### 🚀 Resultados (Result)
+Se demostró que el cambio de diseño no alteró significativamente la conversión. Se recomendó no implementar el cambio si este implicaba costos elevados, ya que no generaba retorno (ROI) adicional.
+
+---
+### › TECNOLOGÍAS
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-Visuals-blue?style=for-the-badge) ![Statistics](https://img.shields.io/badge/Z--Test-Inference-red?style=for-the-badge)

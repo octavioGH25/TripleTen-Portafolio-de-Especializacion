@@ -1,0 +1,19 @@
+# SPRINT 03: AUDITORÍA DE PATRONES DE CONSUMO (MÚSICA)
+
+### 🛡️ Escenario (Situation)
+Se requería validar si las estrategias de marketing debían ser distintas para dos ciudades (Springfield y Shelbyville). La hipótesis planteaba que los usuarios se comportan de forma opuesta según el día.
+
+### 🎯 Objetivo (Task)
+Auditar los registros de transmisión de música online para confirmar matemáticamente las diferencias de actividad los lunes, miércoles y viernes.
+
+### 🔧 Implementación Técnica (Action)
+* **Preprocesamiento:** Tratamiento de valores ausentes (NaN) en la metadata de las pistas.
+* **Lógica Comparativa:** Algoritmos de filtrado para segregar flujos de datos por ciudad y día.
+* **Validación:** Confirmación de tendencias de actividad entre ciudades.
+
+### 🚀 Resultados (Result)
+Se demostró que las ciudades operan de forma opuesta: cuando una sube su actividad (Springfield), la otra baja (Shelbyville). Esto justifica campañas publicitarias diferenciadas.
+
+---
+### › TECNOLOGÍAS
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Data Processing](https://img.shields.io/badge/Data-Processing-green?style=for-the-badge)
